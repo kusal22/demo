@@ -18,7 +18,7 @@
 	{ "id": 8, "name": "User 08", "userName": "user01", "email": "user08@gmail.com", "status":"ACTIVE" },
 	{ "id": 9, "name": "User 09", "userName": "user01", "email": "user09@gmail.com", "status":"ACTIVE" },
 	{ "id": 10, "name": "User 10", "userName": "user10", "email": "user10@gmail.com", "status":"ACTIVE" },
-	{ "id": 11, "name": "User 11", "userName": "user11", "email": "user11@gmail.com", "status":"ACTIVE" },
+	{ "id": 11, "name": "User 11", "userName": "user11", "email": "user11@gmail.com", "status":"ACTIVE" }
   ],
 
   "comments": [
