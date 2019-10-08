@@ -1,11 +1,11 @@
 {
   "questions": [
-	{ "id": 1, "name": "question 01", "description": "typicode" },
-	{ "id": 2, "name": "question 02", "description": "typicode" },
-	{ "id": 3, "name": "question 03", "description": "typicode" },
-	{ "id": 4, "name": "question 04", "description": "typicode" },
-	{ "id": 5, "name": "question 05", "description": "typicode" },
-	{ "id": 6, "name": "question 06", "description": "typicode" }
+	{ "id": 1, "name": "question 01", "description": "Given an unsorted array A of size N of non-negative integers, find a continuous sub-array which adds to a given number S." },
+	{ "id": 2, "name": "question 02", "description": "Given an array arr of N integers. Find the contiguous sub-array with maximum sum." },
+	{ "id": 3, "name": "question 03", "description": "Given an array of distinct integers. The task is to count all the triplets such that sum of two elements equals the third element." },
+	{ "id": 4, "name": "question 04", "description": "Given an array C of size N-1 and given that there are numbers from 1 to N with one element missing, the missing number is to be found." },
+	{ "id": 5, "name": "question 05", "description": "Given two sorted arrays arr1[] and arr2[] in non-decreasing order with size n and m. The task is to merge the two sorted arrays into one sorted array (in non-decreasing order)." },
+	{ "id": 6, "name": "question 06", "description": "Given a sorted array of positive integers. Your task is to rearrange  the array elements alternatively i.e first element should be max value, second should be min value, third should be second max, fourth should be second min and so on" }
   ],
 "users": [
 	{ "id": 1, "name": "User 01", "userName": "user01", "email": "user01@gmail.com", "status":"ACTIVE" },
