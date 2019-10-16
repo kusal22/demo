@@ -20,6 +20,75 @@
 	{ "id": 10, "name": "User 10", "userName": "user10", "email": "user10@gmail.com", "status":"ACTIVE" },
 	{ "id": 11, "name": "User 11", "userName": "user11", "email": "user11@gmail.com", "status":"ACTIVE" }
   ],
+	
+"tests": [
+    	{
+        "id": 1,
+        "testName": "Test 01",
+        "questions": [
+            {
+                "id": 3,
+                "name": "test question3",
+                "description": "This is test question 03"
+            },
+            {
+                "id": 1,
+                "name": "test question1",
+                "description": "This is test question 01"
+            },
+            {
+                "id": 2,
+                "name": "test question2",
+                "description": "This is test question 02"
+            }
+        ],
+        "candidates": [
+            {
+                "id": 2,
+                "name": "test1",
+                "email": "test1@gmail.com"
+            },
+            {
+                "id": 1,
+                "name": "test2",
+                "email": "test2@gmail.com"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "testName": "Test 03",
+        "questions": [
+            {
+                "id": 3,
+                "name": "test question3",
+                "description": "This is test question 03"
+            },
+            {
+                "id": 1,
+                "name": "test question1",
+                "description": "This is test question 01"
+            },
+            {
+                "id": 2,
+                "name": "test question2",
+                "description": "This is test question 02"
+            }
+        ],
+        "candidates": [
+            {
+                "id": 2,
+                "name": "test1",
+                "email": "test1@gmail.com"
+            },
+            {
+                "id": 1,
+                "name": "test2",
+                "email": "test2@gmail.com"
+            }
+        ]
+    }
+],
 
   "comments": [
     	{ "id": 1, "body": "some comment", "postId": 1 }
