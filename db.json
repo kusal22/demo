@@ -1,136 +1,223 @@
 {
-  "questions": [
-	{ "id": 1, "name": "question 01", "description": "Given an unsorted array A of size N of non-negative integers, find a continuous sub-array which adds to a given number S." },
-	{ "id": 2, "name": "question 02", "description": "Given an array arr of N integers. Find the contiguous sub-array with maximum sum." },
-	{ "id": 3, "name": "question 03", "description": "Given an array of distinct integers. The task is to count all the triplets such that sum of two elements equals the third element." },
-	{ "id": 4, "name": "question 04", "description": "Given an array C of size N-1 and given that there are numbers from 1 to N with one element missing, the missing number is to be found." },
-	{ "id": 5, "name": "question 05", "description": "Given two sorted arrays arr1[] and arr2[] in non-decreasing order with size n and m. The task is to merge the two sorted arrays into one sorted array (in non-decreasing order)." },
-	{ "id": 6, "name": "question 06", "description": "Given a sorted array of positive integers. Your task is to rearrange  the array elements alternatively i.e first element should be max value, second should be min value, third should be second max, fourth should be second min and so on" }
-  ],
-"users": [
-	{ "id": 1, "name": "User 01", "userName": "user01", "email": "user01@gmail.com", "status":"ACTIVE" },
-	{ "id": 2, "name": "User 02", "userName": "user01", "email": "user02@gmail.com", "status":"ACTIVE" },
-	{ "id": 3, "name": "User 03", "userName": "user01", "email": "user03@gmail.com", "status":"ACTIVE" },
-	{ "id": 4, "name": "User 04", "userName": "user01", "email": "user04@gmail.com", "status":"ACTIVE" },
-	{ "id": 5, "name": "User 05", "userName": "user01", "email": "user05@gmail.com", "status":"ACTIVE" },
-	{ "id": 6, "name": "User 06", "userName": "user01", "email": "user06@gmail.com", "status":"ACTIVE" },
-	{ "id": 7, "name": "User 07", "userName": "user01", "email": "user07@gmail.com", "status":"ACTIVE" },
-	{ "id": 8, "name": "User 08", "userName": "user01", "email": "user08@gmail.com", "status":"ACTIVE" },
-	{ "id": 9, "name": "User 09", "userName": "user01", "email": "user09@gmail.com", "status":"ACTIVE" },
-	{ "id": 10, "name": "User 10", "userName": "user10", "email": "user10@gmail.com", "status":"ACTIVE" },
-	{ "id": 11, "name": "User 11", "userName": "user11", "email": "user11@gmail.com", "status":"ACTIVE" }
-  ],
-	
-"tests":[
-    {
-        "id": 1,
-        "testName": "Test 01",
-        "createdDate": "2019-10-22T12:55:32",
-        "expirationDate": "2019-10-24T12:55:32",
-        "author": null,
-        "questions": [
+   "questions":[
+      {
+         "id":1,
+         "name":"question 01",
+         "description":"Given an unsorted array A of size N of non-negative integers, find a continuous sub-array which adds to a given number S."
+      },
+      {
+         "id":2,
+         "name":"question 02",
+         "description":"Given an array arr of N integers. Find the contiguous sub-array with maximum sum."
+      },
+      {
+         "id":3,
+         "name":"question 03",
+         "description":"Given an array of distinct integers. The task is to count all the triplets such that sum of two elements equals the third element."
+      },
+      {
+         "id":4,
+         "name":"question 04",
+         "description":"Given an array C of size N-1 and given that there are numbers from 1 to N with one element missing, the missing number is to be found."
+      },
+      {
+         "id":5,
+         "name":"question 05",
+         "description":"Given two sorted arrays arr1[] and arr2[] in non-decreasing order with size n and m. The task is to merge the two sorted arrays into one sorted array (in non-decreasing order)."
+      },
+      {
+         "id":6,
+         "name":"question 06",
+         "description":"Given a sorted array of positive integers. Your task is to rearrange  the array elements alternatively i.e first element should be max value, second should be min value, third should be second max, fourth should be second min and so on"
+      }
+   ],
+   "users":[
+      {
+         "id":1,
+         "name":"User 01",
+         "userName":"user01",
+         "email":"user01@gmail.com",
+         "status":"ACTIVE"
+      },
+      {
+         "id":2,
+         "name":"User 02",
+         "userName":"user01",
+         "email":"user02@gmail.com",
+         "status":"ACTIVE"
+      },
+      {
+         "id":3,
+         "name":"User 03",
+         "userName":"user01",
+         "email":"user03@gmail.com",
+         "status":"ACTIVE"
+      },
+      {
+         "id":4,
+         "name":"User 04",
+         "userName":"user01",
+         "email":"user04@gmail.com",
+         "status":"ACTIVE"
+      },
+      {
+         "id":5,
+         "name":"User 05",
+         "userName":"user01",
+         "email":"user05@gmail.com",
+         "status":"ACTIVE"
+      },
+      {
+         "id":6,
+         "name":"User 06",
+         "userName":"user01",
+         "email":"user06@gmail.com",
+         "status":"ACTIVE"
+      },
+      {
+         "id":7,
+         "name":"User 07",
+         "userName":"user01",
+         "email":"user07@gmail.com",
+         "status":"ACTIVE"
+      },
+      {
+         "id":8,
+         "name":"User 08",
+         "userName":"user01",
+         "email":"user08@gmail.com",
+         "status":"ACTIVE"
+      },
+      {
+         "id":9,
+         "name":"User 09",
+         "userName":"user01",
+         "email":"user09@gmail.com",
+         "status":"ACTIVE"
+      },
+      {
+         "id":10,
+         "name":"User 10",
+         "userName":"user10",
+         "email":"user10@gmail.com",
+         "status":"ACTIVE"
+      },
+      {
+         "id":11,
+         "name":"User 11",
+         "userName":"user11",
+         "email":"user11@gmail.com",
+         "status":"ACTIVE"
+      }
+   ],
+   "tests":[
+      {
+         "id":1,
+         "testName":"Test 01",
+         "createdDate":"2019-10-22T12:55:32",
+         "expirationDate":"2019-10-24T12:55:32",
+         "author":null,
+         "questions":[
             {
-                "id": 1,
-                "name": "test question2",
-                "description": "This is test question 02"
+               "id":1,
+               "name":"test question2",
+               "description":"This is test question 02"
             },
             {
-                "id": 2,
-                "name": "test question1",
-                "description": "This is test question 01"
+               "id":2,
+               "name":"test question1",
+               "description":"This is test question 01"
             },
             {
-                "id": 3,
-                "name": "test question3",
-                "description": "This is test question 03"
+               "id":3,
+               "name":"test question3",
+               "description":"This is test question 03"
             }
-        ],
-        "candidates": [
+         ],
+         "candidates":[
             {
-                "id": 3,
-                "name": "test1",
-                "email": "test1@gmail.com",
-                "status": "ACTIVE"
+               "id":3,
+               "name":"test1",
+               "email":"test1@gmail.com",
+               "status":"ACTIVE"
             },
             {
-                "id": 4,
-                "name": "test2",
-                "email": "test2@gmail.com",
-                "status": "ACTIVE"
+               "id":4,
+               "name":"test2",
+               "email":"test2@gmail.com",
+               "status":"ACTIVE"
             }
-        ]
-    },
-    {
-        "id": 2,
-        "testName": "Test 01",
-        "createdDate": "2019-10-22T12:55:59",
-        "expirationDate": "2019-10-24T12:55:59",
-        "author": null,
-        "questions": [
+         ]
+      },
+      {
+         "id":2,
+         "testName":"Test 01",
+         "createdDate":"2019-10-22T12:55:59",
+         "expirationDate":"2019-10-24T12:55:59",
+         "author":null,
+         "questions":[
             {
-                "id": 6,
-                "name": "test question2",
-                "description": "This is test question 02"
+               "id":6,
+               "name":"test question2",
+               "description":"This is test question 02"
             },
             {
-                "id": 5,
-                "name": "test question1",
-                "description": "This is test question 01"
+               "id":5,
+               "name":"test question1",
+               "description":"This is test question 01"
             },
             {
-                "id": 4,
-                "name": "test question3",
-                "description": "This is test question 03"
+               "id":4,
+               "name":"test question3",
+               "description":"This is test question 03"
             }
-        ],
-        "candidates": [
+         ],
+         "candidates":[
             {
-                "id": 7,
-                "name": "test2",
-                "email": "test2@gmail.com",
-                "status": "ACTIVE"
+               "id":7,
+               "name":"test2",
+               "email":"test2@gmail.com",
+               "status":"ACTIVE"
             },
             {
-                "id": 8,
-                "name": "test1",
-                "email": "test1@gmail.com",
-                "status": "ACTIVE"
+               "id":8,
+               "name":"test1",
+               "email":"test1@gmail.com",
+               "status":"ACTIVE"
             }
-        ]
-    }
-],
-	
-"submissions": [
-    {
-        "testId": 2,
-        "candidateId": 3,
-        "question": {
-            "id": 5,
-            "name": "test question1",
-            "description": "This is test question 01",
-            "imagePath": null
-        },
-        "answer": {
-            "answerId": 1,
-            "answer": "Answer1",
-            "codeLanguage": "java"
-        }
-    },
-    {
-        "testId": 2,
-        "candidateId": 3,
-        "question": {
-            "id": 6,
-            "name": "test question2",
-            "description": "This is test question 02",
-            "imagePath": null
-        },
-        "answer": {
-            "answerId": 2,
-            "answer": "Answer2",
-            "codeLanguage": "java"
-        }
-    }
-]
-
+         ]
+      }
+   ],
+   "submissions":[
+      {
+         "testId":2,
+         "candidateId":3,
+         "question":{
+            "id":5,
+            "name":"test question1",
+            "description":"This is test question 01",
+            "imagePath":null
+         },
+         "answer":{
+            "answerId":1,
+            "answer":"Answer1",
+            "codeLanguage":"java"
+         }
+      },
+      {
+         "testId":2,
+         "candidateId":3,
+         "question":{
+            "id":6,
+            "name":"test question2",
+            "description":"This is test question 02",
+            "imagePath":null
+         },
+         "answer":{
+            "answerId":2,
+            "answer":"Answer2",
+            "codeLanguage":"java"
+         }
+      }
+   ]
 }
