@@ -100,7 +100,7 @@
     }
 ],
 	
-	"submissions": [
+"submissions": [
     {
         "testId": 2,
         "candidateId": 3,
@@ -131,6 +131,6 @@
             "codeLanguage": "java"
         }
     }
-],
+]
 
 }
