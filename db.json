@@ -99,6 +99,39 @@
         ]
     }
 ],
+	
+	"submissions": [
+    {
+        "testId": 2,
+        "candidateId": 3,
+        "question": {
+            "id": 5,
+            "name": "test question1",
+            "description": "This is test question 01",
+            "imagePath": null
+        },
+        "answer": {
+            "answerId": 1,
+            "answer": "Answer1",
+            "codeLanguage": "java"
+        }
+    },
+    {
+        "testId": 2,
+        "candidateId": 3,
+        "question": {
+            "id": 6,
+            "name": "test question2",
+            "description": "This is test question 02",
+            "imagePath": null
+        },
+        "answer": {
+            "answerId": 2,
+            "answer": "Answer2",
+            "codeLanguage": "java"
+        }
+    }
+],
 
   "comments": [
     	{ "id": 1, "body": "some comment", "postId": 1 }
