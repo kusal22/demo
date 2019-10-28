@@ -219,7 +219,7 @@
             "codeLanguage":"java"
          }
       }
-   ]
+   ],
    "authenticate":{
     "userName": "admin",
     "role": "ADMIN",
