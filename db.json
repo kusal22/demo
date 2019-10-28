@@ -219,10 +219,6 @@
             "codeLanguage":"java"
          }
       }
-   ],
-   "authenticate":{
-    "userName": "admin",
-    "role": "ADMIN",
-    "token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTU3MjI2ODk1NCwiaWF0IjoxNTcyMjUwOTU0fQ.25TFbh9_ZfnWo3BS7vRU0L0hkjWAWXjmKqnR7afTfY9LqtjUzKDFqI_Qy62FsT4a89xvvVo3ICnXnaxn0PjM8Q"
-   }
+   ]
+   
 }
