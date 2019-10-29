@@ -137,13 +137,13 @@
          "candidates":[
             {
                "id":3,
-               "name":"test1",
+               "name":"Jessica",
                "email":"test1@gmail.com",
                "status":"ACTIVE"
             },
             {
                "id":4,
-               "name":"test2",
+               "name":"Kusala",
                "email":"test2@gmail.com",
                "status":"ACTIVE"
             }
@@ -175,13 +175,13 @@
          "candidates":[
             {
                "id":7,
-               "name":"test2",
+               "name":"Haojie",
                "email":"test2@gmail.com",
                "status":"ACTIVE"
             },
             {
                "id":8,
-               "name":"test1",
+               "name":"Evan",
                "email":"test1@gmail.com",
                "status":"ACTIVE"
             }
@@ -194,13 +194,45 @@
          "candidateId":3,
          "question":{
             "id":5,
-            "name":"What is the use of FOR…NEXT Loop?",
+            "name":"FOR NEXT Loop",
             "description":"When it is known in advance how many times the loop must be repeated the FOR…NEXT Loop is the most effective option. FOR…NEXT Loop is used to repeat a set of statements to a specific number of times.",
             "imagePath":null
          },
          "answer":{
             "answerId":1,
-            "answer":"Answer1",
+            "answer":"public class PrimitiveParameters
+      {	
+         public static void main(String[] args)
+         {	go();
+         }
+
+         public static void go()
+         {	int x = 3;
+            int y = 2;
+            System.out.println("In method go. x: " + x + " y: " + y);
+            falseSwap(x,y);
+            System.out.println("in method go. x: " + x + " y: " + y);
+            moreParameters(x,y);
+            System.out.println("in method go. x: " + x + " y: " + y);
+         }
+
+         public static void falseSwap(int x, int y)
+         {	System.out.println("in method falseSwap. x: " + x + " y: " + y);
+            int temp = x;
+            x = y;
+            y = temp;
+            System.out.println("in method falseSwap. x: " + x + " y: " + y);
+         }
+
+         public static void moreParameters(int a, int b)
+         {	System.out.println("in method moreParameters. a: " + a + " b: " + b);
+            a = a * b;
+            b = 12;
+            System.out.println("in method moreParameters. a: " + a + " b: " + b);
+            falseSwap(b,a);
+            System.out.println("in method moreParameters. a: " + a + " b: " + b);	
+         }
+      }",
             "codeLanguage":"java"
          }
       },
@@ -209,13 +241,27 @@
          "candidateId":3,
          "question":{
             "id":6,
-            "name":"What is the use of WHILE…WEND Loop?",
+            "name":"WHILE WEND Loop",
             "description":"The While loop keeps repeating an action until an associated condition becomes false. This is useful where the programmer does not know in advance how many times the loop will be executed.",
             "imagePath":null
          },
          "answer":{
             "answerId":2,
-            "answer":"Answer2",
+            "answer":"public class Factorial
+         {
+            public static void main(String[] args)
+            {	final int NUM_FACTS = 100;
+               for(int i = 0; i < NUM_FACTS; i++)
+                  System.out.println( i + "! is " + factorial(i));
+            }
+
+            public static int factorial(int n)
+            {	int result = 1;
+               for(int i = 2; i <= n; i++)
+                  result *= i;
+               return result;
+            }
+         }",
             "codeLanguage":"java"
          }
       }
