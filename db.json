@@ -158,18 +158,18 @@
          "questions":[
             {
                "id":6,
-               "name":"test question2",
-               "description":"This is test question 02"
+               "name":"What are variables?",
+               "description":"Variables are named memory locations (memory cells) which are used to store the program’s input and its computational results during program execution. As the name suggests, the value of a variable may change during the program execution."
             },
             {
                "id":5,
-               "name":"test question1",
-               "description":"This is test question 01"
+               "name":"What are reserved words?",
+               "description":"Reserved words or keywords are the words, which have predefined meanings. They have predefined uses and cannot be used or redefined for any other purpose in a programming language."
             },
             {
                "id":4,
-               "name":"test question3",
-               "description":"This is test question 03"
+               "name":"What are loops?",
+               "description":"The loop is a structure which can repeat a set of statements up to a fixed number of times or until a certain criterion is satisfied."
             }
          ],
          "candidates":[
