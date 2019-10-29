@@ -194,8 +194,8 @@
          "candidateId":3,
          "question":{
             "id":5,
-            "name":"test question1",
-            "description":"This is test question 01",
+            "name":"What is the use of FOR…NEXT Loop?",
+            "description":"When it is known in advance how many times the loop must be repeated the FOR…NEXT Loop is the most effective option. FOR…NEXT Loop is used to repeat a set of statements to a specific number of times.",
             "imagePath":null
          },
          "answer":{
@@ -209,8 +209,8 @@
          "candidateId":3,
          "question":{
             "id":6,
-            "name":"test question2",
-            "description":"This is test question 02",
+            "name":"What is the use of WHILE…WEND Loop?",
+            "description":"The While loop keeps repeating an action until an associated condition becomes false. This is useful where the programmer does not know in advance how many times the loop will be executed.",
             "imagePath":null
          },
          "answer":{
