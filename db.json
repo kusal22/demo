@@ -200,39 +200,7 @@
          },
          "answer":{
             "answerId":1,
-            "answer":"public class PrimitiveParameters
-      {	
-         public static void main(String[] args)
-         {	go();
-         }
-
-         public static void go()
-         {	int x = 3;
-            int y = 2;
-            System.out.println("In method go. x: " + x + " y: " + y);
-            falseSwap(x,y);
-            System.out.println("in method go. x: " + x + " y: " + y);
-            moreParameters(x,y);
-            System.out.println("in method go. x: " + x + " y: " + y);
-         }
-
-         public static void falseSwap(int x, int y)
-         {	System.out.println("in method falseSwap. x: " + x + " y: " + y);
-            int temp = x;
-            x = y;
-            y = temp;
-            System.out.println("in method falseSwap. x: " + x + " y: " + y);
-         }
-
-         public static void moreParameters(int a, int b)
-         {	System.out.println("in method moreParameters. a: " + a + " b: " + b);
-            a = a * b;
-            b = 12;
-            System.out.println("in method moreParameters. a: " + a + " b: " + b);
-            falseSwap(b,a);
-            System.out.println("in method moreParameters. a: " + a + " b: " + b);	
-         }
-      }",
+            "answer":"public class PrimitiveParameters",
             "codeLanguage":"java"
          }
       },
@@ -247,21 +215,7 @@
          },
          "answer":{
             "answerId":2,
-            "answer":"public class Factorial
-         {
-            public static void main(String[] args)
-            {	final int NUM_FACTS = 100;
-               for(int i = 0; i < NUM_FACTS; i++)
-                  System.out.println( i + "! is " + factorial(i));
-            }
-
-            public static int factorial(int n)
-            {	int result = 1;
-               for(int i = 2; i <= n; i++)
-                  result *= i;
-               return result;
-            }
-         }",
+            "answer":"public class Factorial}",
             "codeLanguage":"java"
          }
       }
